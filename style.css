@@ -6,6 +6,16 @@ body{
     background-size: cover;
 }
 
+@media (min-width:1000px){
+    body{
+        background-image: url(WhatsApp\ Image\ 2019-04-20\ at\ 3.34.56\ PM.jpeg);
+    }
+
+    .hello{
+        display: none;
+    }
+}
+
 .navbar-nav > li > a, .navbar-brand {
     padding-top:5px !important; padding-bottom:0 !important;
     height: 30px;
