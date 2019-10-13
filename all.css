@@ -10,6 +10,13 @@
     font-size: 0.4rem;
 }
 
+table {
+    border-collapse: collapse;
+    width: 93% !important;
+    margin-top: 2%;
+    text-align:center;
+}
+
 .nav li{
     padding-right:5px !important;
    }
