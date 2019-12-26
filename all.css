@@ -3077,3 +3077,8 @@ html.is-index .header {
         display: flex
     }
 }
+
+.jumbotron.jumbotron-fluid{
+    margin:0;
+    padding:30px
+}
