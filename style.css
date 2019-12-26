@@ -1,4 +1,4 @@
-body{
+#background-img{
     margin:0;
     padding: 0;
 
@@ -7,13 +7,13 @@ body{
 }
 
 @media (max-width:1000px){
-    body{
+    #background-img{
             background-image: url(http://nsitpedia.collegespace.in/wp-content/uploads/2015/03/IMG_20140510_181508.jpg);
     }
 }
         
 @media (min-width:1000px){
-    body{
+    #background-img{
         background-image: url(back.png) !important;
     }
 
@@ -3110,5 +3110,11 @@ html.is-index .header {
     .post-pagination-share {
         display:-webkit-box;
         display: flex
+    }
+}
+
+@media(min-width:768px){
+    .container-fluid{
+        height:3rem !important; 
     }
 }
