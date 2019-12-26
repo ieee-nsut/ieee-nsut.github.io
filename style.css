@@ -2072,11 +2072,11 @@ html.is-hovering .title {
     color: var(--visited)
 }
 
-.item-title a:visited:hover {
+/* .item-title a:visited:hover {
     background-color: var(--visited);
     border-bottom-color: var(--visited);
     color: var(--visitedInvert)
-}
+} */
 
 .item-box {
     color: var(--colorTextStrong);
@@ -2632,11 +2632,11 @@ html.is-index .header {
     text-decoration: none
 }
 
-.heading-nav a:hover:after,.heading-nav a.is-active:after {
+/* .heading-nav a:hover:after,.heading-nav a.is-active:after {
     opacity: 1;
     -webkit-transform: scaleX(1) translateY(4px);
     transform: scaleX(1) translateY(4px)
-}
+} */
 
 .heading-nav a.is-active {
     color: var(--colorTextStrong)
@@ -2798,12 +2798,12 @@ html.is-index .header {
     transition-property: background-color, color
 }
 
-.post-content a:hover {
+/* .post-content a:hover {
     background-color: var(--colorLink);
     border-bottom-color: var(--colorLink);
     color: var(--colorLinkInvert);
     text-decoration: none
-}
+} */
 
 .post-content a:visited {
     border-bottom-color: var(--visited);

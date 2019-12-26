@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var $nav = document.getElementById('nav');
   var $navLinks = document.querySelectorAll('.nav-link');
   var $title = document.getElementById('title');
-  var $helloLinks = document.querySelectorAll('.nav-link, #jt, .hello a, .elsewhere-link');
+  var $helloLinks = document.querySelectorAll('#jt, .hello a, .elsewhere-link');
 
   var originals = {
     colorLink: rootStyles.getPropertyValue('--colorLink'),
