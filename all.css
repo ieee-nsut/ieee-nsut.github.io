@@ -3082,3 +3082,13 @@ html.is-index .header {
     margin:0;
     padding:30px
 }
+
+@media(min-width:768px){
+    .container-fluid{
+        height:3rem !important; 
+    }
+
+    .container-fluid .row div{
+        height:100% !important;
+    }
+}
