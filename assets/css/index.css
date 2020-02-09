@@ -1,0 +1,18 @@
+/*header*/
+@media (max-width: 768px) {
+  .header-area {
+    margin-top: 12rem !important;
+  }
+
+  .welcome-area {
+    margin-top: 12rem !important;
+  }
+
+  .head-icon {
+    height: 12rem !important;
+  }
+
+  .head-icon .icon {
+    height: 45% !important;
+  }
+}
