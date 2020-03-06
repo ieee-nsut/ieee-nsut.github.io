@@ -740,9 +740,16 @@ welcome
   margin-top: 180px;
   /* transform: perspective(1px) translateY(-30%) !important; */
 }
+/* .welcome-area .header-text p{
+  font-size: 19px !important;
+} */
 @media screen and (max-width: 991px) {
   .welcome-area .header-text .left-text {
     margin-top: 200px;
+  }
+  .welcome-area .header-text p
+  {
+    font-size: 16px !important;
   }
 }
 .welcome-area .header-text h1 {
@@ -767,7 +774,7 @@ welcome
 
 .welcome-area .header-text p {
   font-weight: 300;
-  font-size: 22px;
+  font-size: 16px;
   color: #e0dbdb;
   line-height: 30px;
   letter-spacing: 0.25px;
