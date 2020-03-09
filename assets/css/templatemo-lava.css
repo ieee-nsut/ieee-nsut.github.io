@@ -1,3 +1,5 @@
+
+  
 /* ---------------------------------------------
 Table of contents
 ------------------------------------------------
@@ -7,7 +9,6 @@ Table of contents
 04. header
 05. welcome
 06. preloader
-
 --------------------------------------------- */
 /* 
 ---------------------------------------------
@@ -789,7 +790,6 @@ welcome
     margin-left: 5%;
   }
 }
-
 @media (max-width: 1320px) {
   .welcome-area .header-text .left-text {
     margin-top: 50%;
@@ -799,7 +799,6 @@ welcome
     margin-left: 5%;
   }
 }
-
 @media (max-width: 1140px) {
   .welcome-area {
     height: auto;
@@ -817,12 +816,10 @@ welcome
   .welcome-area {
     background-size: contain;
   }
-
   .welcome-area .header-text {
     padding-top: 100%;
     margin-left: 0;
   }
-
   .container-fluid .col-md-12 {
     margin-right: 0px;
     padding-right: 0px;
@@ -980,7 +977,7 @@ preloader
   border-radius: 6px;
   width: auto !important;
   width: 100%;
-  transform: translateY(-20px);
+  /* transform: translateY(-50px); */
 }
 @media screen and (max-width: 1230px) {
   .clock {
@@ -1491,5 +1488,12 @@ p:last-child {
 @media screen and (max-width: 400px) {
   .main-date {
     font-size: 25px;
+  }
+}
+@media screen and (max-width: 450px)
+{
+  .welcome-area
+  {
+    height: 130vh !important;
   }
 }
