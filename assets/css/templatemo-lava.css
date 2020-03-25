@@ -1497,11 +1497,3 @@ p:last-child {
     height: 140vh !important;
   }
 }
-@media screen and (min-width: 990px)
-{
-  marquee{
-    padding-top: 18px;
-    font-size: 21px !important;
-    /* transform: translateY(20px); */
-  }
-}
