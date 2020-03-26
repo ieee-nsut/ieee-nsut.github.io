@@ -918,9 +918,10 @@ marquee .m4i{
   position: relative;
   max-width: 100%;
   margin-bottom: 40px;
-  font-size: 20px;
+  font-size: 36px;
   color: #006394;
   margin-bottom: 30px;
+  line-height: 36px;
 }
 
 .features-item h4 {
