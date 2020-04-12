@@ -1206,6 +1206,10 @@ hgroup {
   right: 16px;
 }
 
+.card-text {
+  color: rgba(0, 0, 0, 0.767);
+}
+
 .winner {
   border: solid 1px rgba(41, 41, 41, 0.01);
   background: rgb(34, 193, 195);
