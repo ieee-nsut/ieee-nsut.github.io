@@ -258,6 +258,7 @@ body {
   background-image: url(/assets/images/ene.png);
   /* background: transparent; */
 }
+
 .post-wrapper .post.bitbucket-icon .stem-overlay .icon {
   background-image: url(/assets/images/com.png);
 }
@@ -603,9 +604,7 @@ body {
   text-align: left;
 }
 
-.topnav .dropdown {
-  /* float: none; */
-}
+
 .topnav .dropdown-content {
   position: relative;
   text-align: center;
