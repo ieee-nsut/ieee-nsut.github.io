@@ -925,11 +925,14 @@ marquee .m4i{
   font-size: 22px;
   color: #1e1e1e;
   margin-bottom: 25px;
+  
 }
 
 .features-item .main-button {
   margin-top: 35px;
   display: inline-block;
+  width:20rem;
+  padding: 10px 20px;
 }
 
 /* 
