@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+      .scontent{
+  color:white;
+  text-transform: uppercase;
+}
+    </style>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -16,7 +22,7 @@
       href="http://fonts.googleapis.com/css?family=Roboto+Slab|Comfortaa"
       rel="stylesheet"
     />
-
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
     <title>Indicon 2020</title>
 
     <!-- Additional CSS Files -->
@@ -38,6 +44,9 @@
         overflow-x: hidden;
       }
     </style>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    // Add the new slick-theme.css if you want the default styling
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
   </head>
 
   <body>
@@ -53,8 +62,10 @@
 
     <div
       class="container-fluid fixed-top head-icon"
-      style="height: 6rem; position: fixed; background-color: white;"
+      style="height: 6rem; position: fixed; background-color: white;border-bottom: 3px solid #007bff;"
+
     >
+
       <div class="row" style="height: 100%;">
         <div
           class="col-5 col-md-3 icon"
@@ -95,8 +106,11 @@
           /></a>
         </div>
       </div>
+     
     </div>
+    <div style="height: 5px;background-color: red;position: relative;top:0px;z-index: 100;"></div>
 
+    </div>
     <!-- ***** Header Area Start ***** -->
     <header class="header-area header-sticky" style="margin-top: 6rem;">
       <div class="container">
@@ -288,11 +302,11 @@
     >
       <h1>About</h1>
     </div>
-    <section class="section" id="about">
+    <section class="section mb-lg-5" id="about">
       <div class="container">
         <div class="row">
           <div
-            class="col-lg-3 col-md-6 col-sm-12 col-xs-12"
+            class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
             data-scroll-reveal="enter left move 30px over 0.6s after 0.4s"
           >
             <div class="features-item">
@@ -309,18 +323,21 @@
                   India, no effort is being spared to make INDICON 2020, the
                   best so far.
                 </p>
-                <a
+                <div  style="height: auto;display: flex;justify-content: center;align-items: center;">
+                  <a
                   href="https://edas.info/N27120"
                   target="_blank"
                   class="main-button"
                 >
                   Submit Papers
                 </a>
+                </div>
+                
               </div>
             </div>
           </div>
           <div
-            class="col-lg-3 col-md-6 col-sm-12 col-xs-12"
+            class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
             data-scroll-reveal="enter bottom move 30px over 0.6s after 0.4s"
           >
             <div class="features-item">
@@ -337,18 +354,22 @@
                   and is one of the five councils in the Asia Pacific Region
                   (Region #10 of IEEE).
                 </p>
-                <a
+                <div  style="height: auto;display: flex;justify-content: center;align-items: center;">
+                  <a
                   href="https://site.ieee.org/indiacouncil/"
                   target="_blank"
                   class="main-button bt2"
                 >
                   More
                 </a>
+                </div>
+
+                
               </div>
             </div>
           </div>
           <div
-            class="col-lg-3 col-md-6 col-sm-12 col-xs-12"
+            class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
             data-scroll-reveal="enter right move 30px over 0.6s after 0.4s"
           >
             <div class="features-item">
@@ -378,87 +399,80 @@
               </div>
             </div>
           </div>
-          <div
-            class="col-lg-3 col-md-6 col-sm-12 col-xs-12"
-            data-scroll-reveal="enter bottom move 30px over 0.6s after 0.4s"
-          >
-            <div class="features-item">
-              <div class="features-icon">
-                <h2>IEEE</h2>
-                <!-- <img src="assets/images/logos/india_council.png" alt="" /> -->
-                <!-- <h3>Important Updates</h3> -->
-                <!-- <p> -->
-                <strong style="margin: 0 auto;" ;>Important Updates</strong>
-                <div
-                  style="
-                    width: auto;
-                    padding: 10px;
-                    line-height: 18px;
-                    font-size: 15px;
-                  "
-                >
-                  <marquee
-                    onmouseover="this.stop();"
-                    onmouseout="this.start();"
-                    direction="up"
-                    height="300"
-                    scrollamount="4"
-                    vspace="10"
-                  >
-                    <!-- Your first text here followed by link -->
-                    <br /><br />
-                    <i class="fa fa-angle-double-right m1i"></i>
-                    <a class="m1" href="final.pdf" target="_blank"
-                      >Sponsorship brochure released</a
-                    >
-                    <!-- Your second text here -->
-                    <br /><br />
-                    <i class="fa fa-angle-double-right m1i"></i>
-                    <a class="m1" href="./author_section/call_for_papers.html"
-                      >Deadline for full paper submission extended to 15th June
-                      2020</a
-                    >
-                    <!-- Your second text here -->
-                    <br /><br />
-                    <i class="fa fa-angle-double-right m2i"></i>
-                    <a class="m2" href="./author_section/call_for_papers.html"
-                      >Call for papers flyer released</a
-                    >
-                    <!-- Your third text here -->
-                    <br /><br />
-                    <i class="fa fa-angle-double-right m3i"></i>
-                    <a
-                      class="m3"
-                      href="https://edas.info/N27120"
-                      target="_blank"
-                    >
-                      Register Here</a
-                    >
-
-                    <br /><br />
-                    <!-- Your fourth text here -->
-                    <i class="fa fa-angle-double-right m4i"></i>
-                    <a class="m4" href="./author_section/MV_Chauhan.html"
-                      >MV Chauhan Student Paper Contest Live</a
-                    >
-                  </marquee>
-                </div>
-                <!-- </p> -->
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
     </section>
     <script>
-      $(".toggle").on("click", function () {
-        $(".container").toggleClass("microsoft");
-      });
+     
     </script>
     <!-- ***** Features Big Item End ***** -->
 
     <!-- Tracks -->
-
+ <div class="section mb-5 container drop"  style="padding: 0;">
+  <div class="your-class" style="background-image: url('assets/images/white-background-with-blue-tech-hexagon_1017-19366.jpg');background-position: right;background-size:auto;">
+    
+    <div class=".scontent">
+      <div style="padding: 10px 10px;">
+        <div style="display: inline-block;padding: 0rem 0rem;text-transform: uppercase;font-weight: 700;color:white;background-color: #007bff;padding:.2rem .5rem;margin-bottom: .3rem;">
+          important updates
+        </div>
+        <h1 class="h1" style="letter-spacing: .2rem;text-transform: uppercase;font-weight: 400;color: #007bff;font-family: 'Noto Sans', sans-serif;">sponsorship brochure released</h1>
+        <a href="https://www.indicon2020.in/final.pdf" class="main-button" style="padding: 5px 20px;font-weight: 400;margin-top: 1rem;display: inline-block;">
+          View
+        </a>
+      </div>
+      
+    </div>
+    <div class=".scontent">
+      <div style="padding: 10px 20px;">
+        <div style="display: inline-block;padding: 0rem 0rem;text-transform: uppercase;font-weight: 700;color:white;background-color: #007bff;padding:.2rem .5rem;margin-bottom: .3rem;">
+          important updates
+        </div>
+        <h1 class="h1" style="letter-spacing: .2rem;text-transform: uppercase;font-weight: 400;color: #007bff;font-family: 'Noto Sans', sans-serif;"> Deadline for full paper submission extended to 15th June 2020</h1>
+        <a href="./author_section/call_for_papers.html" class="main-button" style="padding: 5px 20px;font-weight: 400;margin-top: 1rem;display: inline-block;">
+          View
+        </a>
+      </div>
+      
+    </div>
+    <div class=".scontent">
+      <div style="padding: 10px 20px;">
+        <div style="display: inline-block;padding: 0rem 0rem;text-transform: uppercase;font-weight: 700;color:white;background-color: #007bff;padding:.2rem .5rem;margin-bottom: .3rem;">
+          important updates
+        </div>
+        <h1 class="h1" style="letter-spacing: .2rem;text-transform: uppercase;font-weight: 400;color: #007bff;font-family: 'Noto Sans', sans-serif;"> Call for papers flyer released</h1>
+        <a href="./author_section/call_for_papers.html" class="main-button" style="padding: 5px 20px;font-weight: 400;margin-top: 1rem;display: inline-block;">
+          View
+        </a>
+      </div>
+    </div>
+    <div class=".scontent">
+      <div style="padding: 10px 20px;">
+        <div style="display: inline-block;padding: 0rem 0rem;text-transform: uppercase;font-weight: 700;color:white;background-color: #007bff;padding:.2rem .5rem;margin-bottom: .3rem;">
+          important updates
+        </div>
+        <h1 class="h1" style="letter-spacing: .2rem;text-transform: uppercase;font-weight: 400;color: #007bff;font-family: 'Noto Sans', sans-serif;"> Register Here</h1>
+        <a href="https://edas.info/N27120" class="main-button" style="padding: 5px 20px;font-weight: 400;margin-top: 1rem;display: inline-block;">
+          View
+        </a>
+      </div>
+    </div>
+    <div class=".scontent">
+      <div style="padding: 10px 20px;">
+        <div style="display: inline-block;padding: 0rem 0rem;text-transform: uppercase;font-weight: 700;color:white;background-color: #007bff;padding:.2rem .5rem;margin-bottom: .3rem;">
+          important updates
+        </div>
+        <h1 class="h1" style="letter-spacing: .2rem;text-transform: uppercase;font-weight: 400;color: #007bff;font-family: 'Noto Sans', sans-serif;">  MV Chauhan Student Paper Contest Live</h1>
+        <a href="./author_section/MV_Chauhan.html" class="main-button" style="padding: 5px 20px;font-weight: 400;margin-top: 1rem;display: inline-block;">
+          View
+        </a>
+      </div>
+    </div>
+    
+  </div>
+ </div>
+ 
     <div id="timeline" class="blueBand section">
       <h1>Important Dates</h1>
     </div>
@@ -881,11 +895,21 @@
 
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
-
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.your-class').slick({
+   
+        });
+      });
+    </script>
     <!-- Globe -->
     <script src="assets/js/three.r95.min.js"></script>
     <script src="assets/js/vanta.globe.min.js"></script>
     <script>
+      
       VANTA.GLOBE({
         el: "#welcome",
         mouseControls: true,
@@ -897,6 +921,9 @@
         backgroundColor: 0x0,
         color: 0x7aff,
         color2: 0xffffff,
+      });
+      $('#next').on('click',function(){
+        $('.carousels').carousel('cycle')
       });
     </script>
   </body>
