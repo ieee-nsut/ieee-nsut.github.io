@@ -842,10 +842,11 @@ about
 }
 
 .features-item {
-  border-radius: 5px;
+  border-radius: 0px;
   padding: 60px 30px;
   text-align: center;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-bottom: 3px solid #007bff;
 }
 
 .features-item h2 {
@@ -933,6 +934,8 @@ marquee .m4i{
   display: inline-block;
   width:20rem;
   padding: 10px 20px;
+  position: relative;
+  top: 10px;
 }
 
 /* 
@@ -1314,6 +1317,7 @@ footer .sub-footer p {
   padding: 40px;
 }
 .features-item {
+  position: relative;
   height: 600px;
 }
 .bt2 {
@@ -1557,3 +1561,5 @@ p:last-child {
     height: 140vh !important;
   }
 }
+.drop{
+  box-shadow: 2px 3px 22px -13px rgba(2,0,0,0.84)
