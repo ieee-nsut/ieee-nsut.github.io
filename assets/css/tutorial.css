@@ -1,0 +1,68 @@
+section.row {
+  background: #fff;
+  padding: 66px 0 44px;
+}
+
+.speaker {
+  margin-bottom: 44px;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 44px;
+}
+h1,
+h2 {
+  color: #648880;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+h5 {
+  color: #494a4b;
+  font-size: 1.7rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #777a7c;
+}
+
+.my li {
+  font-size: 1.5rem;
+  color: #777a7c;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.speaker-info {
+  border: 1px solid #5e5e5f;
+  border-radius: 5px;
+  margin-top: 88px;
+  padding-bottom: 22px;
+  text-align: center;
+}
+
+.speaker-info img {
+  border-radius: 50%;
+  height: 130px;
+  margin: -66px 0 22px;
+  vertical-align: top;
+}
