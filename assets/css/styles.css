@@ -604,7 +604,6 @@ body {
   text-align: left;
 }
 
-
 .topnav .dropdown-content {
   position: relative;
   text-align: center;
@@ -834,7 +833,7 @@ hgroup {
 .header-area .main-nav .nav li a {
   display: block;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 9.5px;
   color: hsl(0, 0%, 48%);
   text-transform: uppercase;
   -webkit-transition: all 0.3s ease 0s;
